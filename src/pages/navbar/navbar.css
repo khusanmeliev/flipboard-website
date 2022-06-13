@@ -1,0 +1,81 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .logo {
+  width: 27%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+nav .lists {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav .lists ul {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .lists ul li {
+  list-style-type: none;
+  color: #bcbcbc;
+}
+nav .lists ul li input {
+  width: 200px;
+  height: 35px;
+  text-indent: 10px;
+  background-color: #262626;
+  border-radius: 4px;
+}
+
+nav .lists ul li button {
+  cursor: pointer;
+}
+
+nav .lists ul li .open {
+  width: 100px;
+  height: 35px;
+  border: 1px solid #bcbcbc;
+  color: #bcbcbc;
+  border-radius: 4px;
+  background-color: inherit;
+}
+
+nav .lists ul li .sign {
+  width: 80px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #f52828;
+  color: white;
+  background-color: inherit;
+}
+nav .lists ul li .login {
+  width: 80px;
+  height: 35px;
+  color: #bcbcbc;
+  background-color: inherit;
+}
